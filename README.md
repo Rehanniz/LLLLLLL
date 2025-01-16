@@ -16,7 +16,6 @@ Ensures the website adapts perfectly to all devices, including desktops, tablets
 - **Order Confirmation**: Confirms successful transactions with order details and receipt.
 
 ---
----
 
 # 2. Designing system architecture
 
@@ -44,9 +43,25 @@ The powerhouse connectors that handle secure payments and provide live shipment 
 6. **Perfect Sync**: The system harmoniously syncs data between the frontend, Sanity CMS, and third-party services, delivering a seamless shopping journey.
 
 ---
+
+# 3. Planning API Requirements
+
+## API Endpoints
+
+### GET /products
+This API retrieves all the products from Sanity CMS and sends them to the frontend. It ensures users always see the most accurate and updated product information.
+
+### POST /orders
+This API creates a new order by saving customer details, product information, and payment status in the system. It keeps the order process smooth and organized.
+
+### GET /shipment
+This API retrieves live tracking information from the shipment tracking service. It helps users stay updated on their order's delivery status.
+
+## API Features
+
 ---
 
-# 3. Designing Key Workflow
+# 4. Designing Key Workflow
 
 ## User Registration
 Users can easily sign up, with their information securely saved in Sanity CMS. Upon registration, they receive a confirmation email to activate their account.
@@ -61,9 +76,8 @@ Placing an order is simple! Users add items to their cart, complete the checkout
 Users can track their orders with live status updates fetched from third-party APIs, keeping them informed at every step of the delivery process.
 
 ---
----
 
-# 4. Key Takeaways from Today
+# 5. Key Takeaways from Today
 
 ## Clear Communication Between Frontend, Backend, and APIs
 The frontend (what users see) communicates with the backend (the server) through APIs, sharing data like product details and orders. This smooth communication ensures everything works seamlessly for the user.
