@@ -63,7 +63,7 @@ Users can track their orders with live status updates fetched from third-party A
 ---
 ---
 
-# Key Takeaways from Today
+# 4. Key Takeaways from Today
 
 ## Clear Communication Between Frontend, Backend, and APIs
 The frontend (what users see) communicates with the backend (the server) through APIs, sharing data like product details and orders. This smooth communication ensures everything works seamlessly for the user.
