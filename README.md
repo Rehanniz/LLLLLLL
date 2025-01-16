@@ -15,7 +15,8 @@ Ensures the website adapts perfectly to all devices, including desktops, tablets
 - **Checkout**: Collects shipping and payment information to complete purchases.
 - **Order Confirmation**: Confirms successful transactions with order details and receipt.
 
-
+---
+---
 
 # 2. Designing system architecture
 
@@ -41,6 +42,9 @@ The powerhouse connectors that handle secure payments and provide live shipment 
 5. **Secure Payments**: The payment gateway processes transactions safely, ensuring trust and reliability.
 
 6. **Perfect Sync**: The system harmoniously syncs data between the frontend, Sanity CMS, and third-party services, delivering a seamless shopping journey.
+
+---
+---
 
 # 3. Designing Key Workflow
 
