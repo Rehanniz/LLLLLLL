@@ -1,4 +1,4 @@
-# Designing system architecture
+# 1. Designing system architecture
 
 ## Frontend (Next.js)
 The sleek, user-friendly interface where customers explore products, manage their carts, and complete purchases.
