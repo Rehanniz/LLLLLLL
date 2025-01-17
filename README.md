@@ -1,6 +1,6 @@
 # Market Place Technical Documentation
-**
-**
+
+--
 
 # 1. Defining technical requirements
 
